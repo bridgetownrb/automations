@@ -12,7 +12,9 @@ If you already have an automation script you like to use, you can include additi
 apply_from_url "https://github.com/bridgetownrb/bridgetown-automations/netlify.rb"
 ```
 
-## Netlify TOML Configuration
+## List of Automations:
+
+### ⚙️ Netlify TOML Configuration
 
 Adds a basic configuration to your site for use in Netlify deployments.
 
@@ -22,7 +24,7 @@ Adds a basic configuration to your site for use in Netlify deployments.
 bundle exec bridgetown apply https://github.com/bridgetownrb/bridgetown-automations/netlify.rb
 ```
 
-## GraphQL Builder
+### 🔎 GraphQL Builder
 
 Adds the [Graphlient](http://github.com/ashkan18/graphlient) gem and creates a `GraphqlBuilder` class in `plugins/builders` which you can customize to transform any GraphQL API data into posts and other documents. Tested with [Strapi headless CMS](https://strapi.io).
 
