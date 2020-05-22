@@ -8,4 +8,6 @@ A collection of helpful automation scripts for Bridgetown sites. Simply run `bun
 
 Adds a basic configuration to your site for use in Netlify deployments.
 
-`bundle exec bridgetown apply https://github.com/bridgetownrb/bridgetown-automations/netlify.rb`
+```
+bundle exec bridgetown apply https://github.com/bridgetownrb/bridgetown-automations/netlify.rb
+```
