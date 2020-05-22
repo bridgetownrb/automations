@@ -9,7 +9,7 @@ Simply run `bundle exec bridgetown apply URL`, where URL is this repo URL along 
 If you already have an automation script you like to use, you can include additional automations by calling `apply_from_url`. For example:
 
 ```
-apply_from_url "https://github.com/bridgetownrb/bridgetown-automations/netlify.rb"
+apply_from_url "https://github.com/bridgetownrb/automations/netlify.rb"
 ```
 
 ## List of Automations:
@@ -21,7 +21,7 @@ apply_from_url "https://github.com/bridgetownrb/bridgetown-automations/netlify.r
 🛠 **[Review](netlify.rb)** or **Install:**
 
 ```
-bundle exec bridgetown apply https://github.com/bridgetownrb/bridgetown-automations/netlify.rb
+bundle exec bridgetown apply https://github.com/bridgetownrb/automations/netlify.rb
 ```
 
 ### GraphQL Builder
@@ -31,5 +31,5 @@ bundle exec bridgetown apply https://github.com/bridgetownrb/bridgetown-automati
 🛠 **[Review](graphql.rb)** or **Install:**
 
 ```
-bundle exec bridgetown apply https://github.com/bridgetownrb/bridgetown-automations/graphql.rb
+bundle exec bridgetown apply https://github.com/bridgetownrb/automations/graphql.rb
 ```
