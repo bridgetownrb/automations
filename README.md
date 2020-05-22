@@ -8,6 +8,8 @@ A collection of helpful automation scripts for [Bridgetown](https://www.bridgeto
 
 Adds a basic configuration to your site for use in Netlify deployments.
 
+**[Review](netlify.rb)** or **Install:**
+
 ```
 bundle exec bridgetown apply https://github.com/bridgetownrb/bridgetown-automations/netlify.rb
 ```
