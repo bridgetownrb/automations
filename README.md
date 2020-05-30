@@ -14,6 +14,16 @@ apply_from_url "https://github.com/bridgetownrb/automations/netlify.rb"
 
 ## List of Automations:
 
+### PurgeCSS Post-Build Hook
+
+🧼 Adds a builder plugin which runs [PurgeCSS](https://purgecss.com) against the output HTML + frontend Javascript and produces a much smaller CSS output bundle for sites which use large CSS frameworks.
+
+🛠 **[Review](purgecss.rb)** or **Install:**
+
+```
+bundle exec bridgetown apply https://github.com/bridgetownrb/automations/purgecss.rb
+```
+
 ### Netlify TOML Configuration
 
 ⚙️ Adds a basic configuration to your site for use in Netlify deployments.
