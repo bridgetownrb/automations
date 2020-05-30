@@ -1,6 +1,6 @@
 say_status :purgecss, "Installing PurgeCSS"
 
-run "yarn install purgecss --dev"
+run "yarn add purgecss --dev"
 
 create_builder "purgecss_builder.rb" do
   <<~RUBY
