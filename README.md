@@ -8,7 +8,9 @@ Simply run `bundle exec bridgetown apply URL`, where URL is this repo URL along 
 
 If you already have an automation script you like to use, you can include additional automations by calling `apply_from_url`. For example:
 
-```
+```ruby
+# my_script.rb
+
 apply_from_url "https://github.com/bridgetownrb/automations/netlify.rb"
 ```
 
