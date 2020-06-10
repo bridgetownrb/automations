@@ -16,6 +16,16 @@ apply_from_url "https://github.com/bridgetownrb/automations/netlify.rb"
 
 ## List of Automations:
 
+### Swup.js Page Transitions
+
+⚡️ Adds [Swup](https://swup.js.org) for fast animated page transitions that make your site feel modern and cool. (If you've used Turbolinks in the past, you'll love Swup!)
+
+🛠 **[Review](swup.rb)** or **Install:**
+
+```
+bundle exec bridgetown apply https://github.com/bridgetownrb/automations/swup.rb
+```
+
 ### PurgeCSS Post-Build Hook
 
 🧼 Adds a builder plugin which runs [PurgeCSS](https://purgecss.com) against the output HTML + frontend Javascript and produces a much smaller CSS output bundle for sites which use large CSS frameworks.
