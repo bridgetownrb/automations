@@ -14,6 +14,19 @@ If you already have an automation script you like to use, you can include additi
 apply_from_url "https://github.com/bridgetownrb/automations/netlify.rb"
 ```
 
+----
+
+🖇 **To include your automation**, file a pull request and we'll review it for inclusion in this list!
+
+## Other Repos:
+
+In addition to the automations here, check out some other GitHub repos which include Bridgetown automations:
+
+* [TailwindCSS](https://github.com/ParamagicDev/bridgetown-plugin-tailwindcss)
+* [Cypress Testing](https://github.com/ParamagicDev/bridgetown-automation-cypress)
+* [NodeRunner (add data from Node.js scripts)](https://github.com/bridgetownrb/node-runner)
+* [Cloudinary plugin](https://github.com/bridgetownrb/bridgetown-cloudinary)
+
 ## List of Automations:
 
 ### Swup.js Page Transitions
