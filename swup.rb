@@ -21,6 +21,7 @@ end
 css_index = File.exist?(File.expand_path("frontend/styles/index.scss", destination_root)) ? "frontend/styles/index.scss" : "frontend/styles/index.css"
 append_to_file css_index do
   <<~CSS
+
     .swup-transition-main {
       transition: opacity .2s;
     }
