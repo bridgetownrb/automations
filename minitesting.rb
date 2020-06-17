@@ -14,8 +14,8 @@ append_to_file "Gemfile" do
   GEMS
 end
 
-new_scripts = '    "test": "BRIDGETOWN_ENV=test yarn build"'
-new_scripts = "\n" + '    "deploy:test": "bundle install --with test && yarn deploy"'
+new_scripts = '    "test": "BRIDGETOWN_ENV=test yarn build",'
+new_scripts += "\n" + '    "deploy:test": "bundle install --with test && yarn deploy"'
 package_json = "package.json"
 script_regex = /"scripts": {(\s+".*,?)*/
 inject_into_file(package_json, ",\n" + new_scripts, after: script_regex)
@@ -87,10 +87,9 @@ create_file "plugins/test_output.rb" do
       Bridgetown::Hooks.register :site, :post_write do
         # Load test suite to run on exit
         require "nokogiri"
-        Dir["test/**/*.rb"].each { |file| require_relative("../#{file}") }
+        Dir["test/**/*.rb"].each { |file| require_relative("../\#{file}") }
       rescue LoadError
-        # To allow test suite to run:
-        # bundle install --with test
+        Bridgetown.logger.warn "Testing:", "To run tests, you must first run \`bundle install --with test\`"
       end
     end
   RUBY
