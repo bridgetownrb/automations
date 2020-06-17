@@ -1,4 +1,4 @@
-say_status :minitesting, "Adding test gems to your Gemfile"
+say_status :minitesting, "Adding test gems, package.json scripts, and examples"
 
 append_to_file "Gemfile" do
   <<~GEMS
@@ -94,3 +94,5 @@ create_file "plugins/test_output.rb" do
     end
   RUBY
 end
+
+say_status :minitesting, "All set! To get started, look at test/test_homepage.rb and then run \`yarn test\`"
