@@ -1,6 +1,6 @@
 # Bridgetown Automations
 
-_COMING IN Bridgetown v0.15!_
+_NEW IN Bridgetown v0.15!_
 
 A collection of helpful automation scripts that can be applied to [Bridgetown](https://www.bridgetownrb.com) websites.
 
