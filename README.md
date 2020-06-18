@@ -49,6 +49,16 @@ bundle exec bridgetown apply https://github.com/bridgetownrb/automations/swup.rb
 bundle exec bridgetown apply https://github.com/bridgetownrb/automations/purgecss.rb
 ```
 
+### Automated Test Suite using Minitest
+
+⚙️ Adds a basic test suite using Minitest and Rails DOM assertions for extremely fast verification of your output HTML.
+
+🛠 **[Review](minitesting.rb)** or **Install:**
+
+```
+bundle exec bridgetown apply https://github.com/bridgetownrb/automations/minitesting.rb
+```
+
 ### Netlify TOML Configuration
 
 ⚙️ Adds a basic configuration to your site for use in Netlify deployments.
