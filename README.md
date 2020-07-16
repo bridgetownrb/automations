@@ -22,10 +22,11 @@ apply_from_url "https://github.com/bridgetownrb/automations/netlify.rb"
 
 In addition to the automations here, check out some other GitHub repos which include Bridgetown automations:
 
-* [TailwindCSS](https://github.com/ParamagicDev/bridgetown-plugin-tailwindcss)
+* [TailwindCSS](https://github.com/ParamagicDev/bridgetown-automation-tailwindcss)
 * [Cypress Testing](https://github.com/ParamagicDev/bridgetown-automation-cypress)
 * [NodeRunner (add data from Node.js scripts)](https://github.com/bridgetownrb/node-runner)
 * [Cloudinary plugin](https://github.com/bridgetownrb/bridgetown-cloudinary)
+* [Install Preact and React Hook Form (demo site)](https://github.com/jaredcwhite/example-bridgetown-preact)
 
 ## List of Automations:
 
