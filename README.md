@@ -69,13 +69,3 @@ bundle exec bridgetown apply https://github.com/bridgetownrb/automations/minites
 ```
 bundle exec bridgetown apply https://github.com/bridgetownrb/automations/netlify.rb
 ```
-
-### GraphQL Builder
-
-🔎 Adds the [Graphlient](http://github.com/ashkan18/graphlient) gem and creates a `GraphqlBuilder` class in `plugins/builders` which you can customize to transform any GraphQL API data into posts and other documents. Tested with [Strapi headless CMS](https://strapi.io).
-
-🛠 **[Review](graphql.rb)** or **Install:**
-
-```
-bundle exec bridgetown apply https://github.com/bridgetownrb/automations/graphql.rb
-```
