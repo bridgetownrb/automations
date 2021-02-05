@@ -1,6 +1,8 @@
-# Bridgetown Automations
+**NOTE: This repo has been deprecated.** Starting with Bridgetown 0.19.2, popular automations are now bundled with the Bridgetown CLI directly. Read the [Bundled Configurations](https://www.bridgetownrb.com/docs/bundled-configurations) documentations to learn more.
 
-_NEW IN Bridgetown v0.15!_
+----
+
+# Bridgetown Automations
 
 A collection of helpful automation scripts that can be applied to [Bridgetown](https://www.bridgetownrb.com) websites.
 
